@@ -5,7 +5,8 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.css">
   <link rel="stylesheet" type="text/css" href="keen/keen-dashboards.css" />
 </head>
 <style>
@@ -119,6 +120,7 @@ tr.shown td.details-control {
 						</tr>
 					</thead>			
 				</table>
+
               </div>
             </div>
           </div>
@@ -131,7 +133,8 @@ tr.shown td.details-control {
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script> 
+<!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>  -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -141,6 +144,7 @@ $(document).ready(function(){
 	var yyyy = today.getFullYear();
 	today = mm + '/' + dd + '/' + yyyy;	
 	d3.select("#today").html(today);
+	var latlong = [];
 	var selection = [];
 var map = L.map('map').setView([40.713312, -73.977407], 11);
 
@@ -182,6 +186,7 @@ var width = $("#map").width(),
 					'COMMUNITY DISTRICT: ' + d.CD + '</br>' +
 					'JOB TYPE: '+ d.jobType + '</br>' +
 					'CONTRACTOR: ' + d.Contractor
+					
 				)
 				if (d3.event.pageX > (width - 200)) {
 				   tooltip.style("left", (d3.event.pageX - 350) + "px");
@@ -236,10 +241,18 @@ var width = $("#map").width(),
 			})
 	}
 	
+	function zoomToSelected(latlong){
+			map.setView(latlong,15);
+	}	
+	
+	function zoomFullExtent(){
+		map.setView([40.713312, -73.977407], 11);
+	}
+	
 	map.on('resize', function(){
 		map.invalidateSize();		
 	});
-	
+
 	function format ( d ) {
 		// `d` is the original data object for the row
 		return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
@@ -267,9 +280,17 @@ var width = $("#map").width(),
 				'<td>Contractor:</td>'+
 				'<td>'+d.Contractor+'</td>'+
 			'</tr>'+
+
+			<!-- '<tr>'+ -->
+				<!-- '<td>'+'<a id="zoom" href="#" onclick="zoom(' + d.Lat + ',' + d.Lon + ');return false;">Zoom To</a>'+'</td>'+ -->
+			<!-- '</tr>'+			 -->
+			
 		'</table>';
 	}	
-		
+	function zoom(lat,lon){
+		map.panTo(new L.LatLng(lat,lon));
+	}
+	
 	$(function(){
 		var table = $('#riskTable').DataTable({
 
@@ -306,14 +327,15 @@ var width = $("#map").width(),
 
 				
 			});
-			
+		
 		$('#riskTable tbody').on( 'click', 'tr', function () {
 			if ( $(this).hasClass('selected') ) {
 				$(this).removeClass('selected');			
 			d3.selectAll('.point')
 				.style("fill-opacity", function(d){
 					return "0.7";
-				});							
+				});	
+			zoomFullExtent();
 			}
 			else {
 				table.$('tr.selected').removeClass('selected');
@@ -321,9 +343,13 @@ var width = $("#map").width(),
 				
 			for (var i=0; i < table.rows('.selected').data().length; i++){
 				var selectedRecord = table.rows('.selected').data()[i].BIN;
+				var lat = table.rows('.selected').data()[i].Lat;
+				var lon = table.rows('.selected').data()[i].Lon;
+				latlong = [lat,lon];
 				console.log(selectedRecord);
 				}
-				   highlightPoint(selectedRecord);			
+				highlightPoint(selectedRecord);	
+				zoomToSelected(latlong);
 			}
 		});
 
@@ -344,6 +370,10 @@ var width = $("#map").width(),
 			}
 		});
 	});	
+
+
+
+
 });	
 
 </script>
