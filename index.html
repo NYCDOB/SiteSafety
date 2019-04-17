@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Safety Tracker</title>
+  <title>ACTIVE SITE SAFETY PROFESSIONAL LOCATIONS</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
@@ -93,8 +93,7 @@ tr.shown td.details-control {
 </style>
 <body class="application">
 	  <div class="heading">
-		<img id="img" src="/data/dob_logo.png">
-			SITE SAFETY TRACKER (AS OF <span id="today"></span>)		
+			ACTIVE SITE SAFETY PROFESSIONAL LOCATIONS (AS OF <span id="today"></span>)		
 	  </div>
 <!-- <div class="container-fluid"> -->
 <div class="row">
@@ -182,10 +181,9 @@ var width = $("#map").width(),
 					'JOB NUMBER: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/JobsQueryByNumberServlet?passjobnumber=' + d.jobNum + '&passdocnumber=&go10=+GO+&requestid=0" target="_blank">' + d.jobNum + '</a>' + '</br>' +
 					'BIN: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + d.bin + '&go4=+GO+&requestid=0" target="_blank">' + d.bin + '</a>' + '</br>' +								
 					'ADDRESS: '+ d.Address + ', ' + d.Borough + '</br>' +
-					//'STREET VIEW: ' + '<a href= "https://nycdob.github.io/CycloMedia/simple#' + d.x + ',' + d.y +  '" target="_blank">Cyclomedia</a>' + '</br>' +
 					'COMMUNITY DISTRICT: ' + d.CD + '</br>' +
 					'JOB TYPE: '+ d.jobType + '</br>' +
-					'CONTRACTOR: ' + d.Contractor
+					'PERMIT EXPIRATION DATE: ' + d.permitExpDate
 					
 				)
 				if (d3.event.pageX > (width - 200)) {
@@ -213,20 +211,20 @@ var width = $("#map").width(),
 				return tooltip.transition().delay(500).style("visibility", "hidden"); 
 			}
 		});
-		pointsUpd.attr('r', 5 / proj.scale);
+		pointsUpd.attr('r', 4 / proj.scale);
 
 	});
 
-	d3.csv("https://raw.githubusercontent.com/NYCDOB/D3_ActivePermits_Risk/gh-pages/data/SiteSafetyAutomationOutput.csv",function(data){
+	d3.csv("https://raw.githubusercontent.com/NYCDOB/SiteSafety/gh-pages/data/ActivePermits_CS_SSM_SSC.csv",function(data){
 				points = data.map(function(d){
-				d.latLng = [+d.Lat,+d.Lon];
+				d.latLng = [+d.lat,+d.lon];
 				d.bin = [d.BIN];				
 				d.Address = [d.Address];
 				d.CD = d["Community Board"];
 				d.Borough = [d.Borough];
 				d.jobNum = d["Job Number"];
 				d.jobType = d["Job Type"];
-				d.Contractor = [d.Contractor];
+				d.permitExpDate = d["Permit Expiration Date"];
 			return d;
 			});
 		pointsOverlay.addTo(map);
@@ -266,24 +264,16 @@ var width = $("#map").width(),
 			'</tr>'+
 			'<tr>'+
 				'<td>BIN:</td>'+
-				'<td>'+'<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + d.BIN + '&go4=+GO+&requestid=0" target="_blank">' + d.BIN + '</a>'+'</td>'+
+				'<td>'+'<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + [d.BIN] + '&go4=+GO+&requestid=0" target="_blank">' + [d.BIN] + '</a>'+'</td>'+
 			'</tr>'+
 			'<tr>'+
-				'<td>Number of Stories:</td>'+
-				'<td>'+d["Number of Stories"]+'</td>'+
+				'<td>Permit Expiration Date:</td>'+
+				'<td>'+d["Permit Expiration Date"]+'</td>'+
 			'</tr>'+
 			'<tr>'+
 				'<td>Community District:</td>'+
 				'<td>'+d["Community Board"]+'</td>'+
 			'</tr>'+
-			'<tr>'+
-				'<td>Contractor:</td>'+
-				'<td>'+d.Contractor+'</td>'+
-			'</tr>'+
-
-			<!-- '<tr>'+ -->
-				<!-- '<td>'+'<a id="zoom" href="#" onclick="zoom(' + d.Lat + ',' + d.Lon + ');return false;">Zoom To</a>'+'</td>'+ -->
-			<!-- '</tr>'+			 -->
 			
 		'</table>';
 	}	
@@ -295,16 +285,9 @@ var width = $("#map").width(),
 		var table = $('#riskTable').DataTable({
 
 				"ajax": {
-					"url": "https://raw.githubusercontent.com/NYCDOB/D3_ActivePermits_Risk/gh-pages/data/SiteSafetyAutomationOutput.json",
+					"url": "https://raw.githubusercontent.com/NYCDOB/SiteSafety/gh-pages/data/AActivePermits_CS_SSM_SSC.json",
 					"dataSrc": ""
 				},
-				
-				<!-- columnDefs: [{ -->
-					<!-- targets: 1, -->
-					<!-- render: function(data,type,row,meta){ -->
-						<!-- return '<a href= "https://nycdob.github.io/D3_DOBNOW_Milestone/layouts/two-and-one/index_property_all_filings#' + data +'" target="_blank">' + data + '</a>'; -->
-					<!-- } -->
-				<!-- }], -->
 
 				order: [[1, "asc"]],
 				lengthChange: false,
@@ -343,8 +326,8 @@ var width = $("#map").width(),
 				
 			for (var i=0; i < table.rows('.selected').data().length; i++){
 				var selectedRecord = table.rows('.selected').data()[i].BIN;
-				var lat = table.rows('.selected').data()[i].Lat;
-				var lon = table.rows('.selected').data()[i].Lon;
+				var lat = table.rows('.selected').data()[i].Latitude;
+				var lon = table.rows('.selected').data()[i].Longitude;
 				latlong = [lat,lon];
 				console.log(selectedRecord);
 				}
