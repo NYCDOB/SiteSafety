@@ -8,7 +8,7 @@ body.application,
   background: #ffffff;
   /* font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Open Sans', sans-serif;
-  padding: 5px 20px 0;
+  padding: 5px 15px 5px;
 }
 
 body.application > .container-fluid,
