@@ -2769,7 +2769,7 @@
 	"Longitude": -74.0068893
  },
  {
-	"Job Number": "M00769366-I1",
+	"Job Number": "M00759469-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/12/2023",
@@ -2795,7 +2795,7 @@
 	"Longitude": -74.0048676
  },
  {
-	"Job Number": "M00759469-I1",
+	"Job Number": "M00769366-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/12/2023",
@@ -3224,10 +3224,10 @@
 	"Longitude": -73.9983673
  },
  {
-	"Job Number": "M00768909-I1",
-	"Job Type": "Alteration",
+	"Job Number": "M00766841-I1",
+	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "1/13/2024",
+	"Permit Expiration Date": "1/15/2024",
 	"BIN": "1013992",
 	"Borough": "MANHATTAN",
 	"Community Board": "104",
@@ -3237,10 +3237,10 @@
 	"Longitude": -73.9983673
  },
  {
-	"Job Number": "M00766841-I1",
-	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
+	"Job Number": "M00768909-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "1/15/2024",
+	"Permit Expiration Date": "1/13/2024",
 	"BIN": "1013992",
 	"Borough": "MANHATTAN",
 	"Community Board": "104",
@@ -3692,19 +3692,6 @@
 	"Longitude": -73.9911728
  },
  {
-	"Job Number": "M00644926-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/1/2023",
-	"BIN": "1015191",
-	"Borough": "MANHATTAN",
-	"Community Board": "105",
-	"Address": "401 7 AVENUE",
-	"Count": 1,
-	"Latitude": 40.749691,
-	"Longitude": -73.9905472
- },
- {
 	"Job Number": "M00642772-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -3714,6 +3701,19 @@
 	"Community Board": "105",
 	"Address": "401 7 AVENUE",
 	"Count": 2,
+	"Latitude": 40.749691,
+	"Longitude": -73.9905472
+ },
+ {
+	"Job Number": "M00644926-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/1/2023",
+	"BIN": "1015191",
+	"Borough": "MANHATTAN",
+	"Community Board": "105",
+	"Address": "401 7 AVENUE",
+	"Count": 1,
 	"Latitude": 40.749691,
 	"Longitude": -73.9905472
  },
@@ -5161,6 +5161,32 @@
 	"Longitude": -73.9789429
  },
  {
+	"Job Number": "M00426213-S3",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "3/13/2024",
+	"BIN": "1023462",
+	"Borough": "MANHATTAN",
+	"Community Board": "105",
+	"Address": "140 WEST   57 STREET",
+	"Count": 2,
+	"Latitude": 40.7647514,
+	"Longitude": -73.9789429
+ },
+ {
+	"Job Number": "M00426213-S4",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "3/13/2024",
+	"BIN": "1023462",
+	"Borough": "MANHATTAN",
+	"Community Board": "105",
+	"Address": "140 WEST   57 STREET",
+	"Count": 2,
+	"Latitude": 40.7647514,
+	"Longitude": -73.9789429
+ },
+ {
 	"Job Number": "121206550",
 	"Job Type": "NB",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -5928,6 +5954,19 @@
 	"Longitude": -73.9794235
  },
  {
+	"Job Number": "M00464161-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "6/23/2023",
+	"BIN": "1029966",
+	"Borough": "MANHATTAN",
+	"Community Board": "107",
+	"Address": "122 WEST   73 STREET",
+	"Count": 1,
+	"Latitude": 40.7782707,
+	"Longitude": -73.9793091
+ },
+ {
 	"Job Number": "M00464078-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -5950,19 +5989,6 @@
 	"Community Board": "107",
 	"Address": "122 WEST   73 STREET",
 	"Count": 2,
-	"Latitude": 40.7782707,
-	"Longitude": -73.9793091
- },
- {
-	"Job Number": "M00464161-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/23/2023",
-	"BIN": "1029966",
-	"Borough": "MANHATTAN",
-	"Community Board": "107",
-	"Address": "122 WEST   73 STREET",
-	"Count": 1,
 	"Latitude": 40.7782707,
 	"Longitude": -73.9793091
  },
@@ -7852,7 +7878,7 @@
 	"Longitude": -73.9724274
  },
  {
-	"Job Number": "M00633185-I1",
+	"Job Number": "M00591850-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/27/2023",
@@ -7860,7 +7886,7 @@
 	"Borough": "MANHATTAN",
 	"Community Board": "105",
 	"Address": "711 5 AVENUE",
-	"Count": 3,
+	"Count": 2,
 	"Latitude": 40.7617111,
 	"Longitude": -73.9743805
  },
@@ -7878,7 +7904,7 @@
 	"Longitude": -73.9743805
  },
  {
-	"Job Number": "M00591850-I1",
+	"Job Number": "M00633185-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/27/2023",
@@ -7886,7 +7912,7 @@
 	"Borough": "MANHATTAN",
 	"Community Board": "105",
 	"Address": "711 5 AVENUE",
-	"Count": 2,
+	"Count": 3,
 	"Latitude": 40.7617111,
 	"Longitude": -73.9743805
  },
@@ -11479,19 +11505,6 @@
 	"Longitude": -73.9536209
  },
  {
-	"Job Number": "M00547165-S2",
-	"Job Type": "New Building",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "1048663",
-	"Borough": "MANHATTAN",
-	"Community Board": "108",
-	"Address": "250 EAST   83 STREET",
-	"Count": 1,
-	"Latitude": 40.7758598,
-	"Longitude": -73.9536209
- },
- {
 	"Job Number": "M00547165-S9",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -13117,19 +13130,6 @@
 	"Longitude": -73.9568329
  },
  {
-	"Job Number": "M00573389-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "1/20/2024",
-	"BIN": "1060604",
-	"Borough": "MANHATTAN",
-	"Community Board": "110",
-	"Address": "2850 FREDERICK DOUGLASS BOULEVARD",
-	"Count": 3,
-	"Latitude": 40.8268089,
-	"Longitude": -73.9384689
- },
- {
 	"Job Number": "M00447333-S1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -13139,6 +13139,19 @@
 	"Community Board": "110",
 	"Address": "2850 FREDERICK DOUGLASS BOULEVARD",
 	"Count": 4,
+	"Latitude": 40.8268089,
+	"Longitude": -73.9384689
+ },
+ {
+	"Job Number": "M00573389-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "1/20/2024",
+	"BIN": "1060604",
+	"Borough": "MANHATTAN",
+	"Community Board": "110",
+	"Address": "2850 FREDERICK DOUGLASS BOULEVARD",
+	"Count": 3,
 	"Latitude": 40.8268089,
 	"Longitude": -73.9384689
  },
@@ -13302,12 +13315,12 @@
 	"Job Number": "M00579245-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/30/2023",
+	"Permit Expiration Date": "7/1/2023",
 	"BIN": "1062863",
 	"Borough": "MANHATTAN",
 	"Community Board": "112",
 	"Address": "528 WEST  162 STREET",
-	"Count": 1,
+	"Count": 2,
 	"Latitude": 40.8364182,
 	"Longitude": -73.941391
  },
@@ -14339,10 +14352,10 @@
 	"Longitude": -73.9975433
  },
  {
-	"Job Number": "M00507269-I1",
+	"Job Number": "M00507237-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "10/11/2023",
+	"Permit Expiration Date": "9/16/2023",
 	"BIN": "1077363",
 	"Borough": "MANHATTAN",
 	"Community Board": "105",
@@ -14352,10 +14365,10 @@
 	"Longitude": -73.9751129
  },
  {
-	"Job Number": "M00507237-I1",
+	"Job Number": "M00507269-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "9/16/2023",
+	"Permit Expiration Date": "10/11/2023",
 	"BIN": "1077363",
 	"Borough": "MANHATTAN",
 	"Community Board": "105",
@@ -16198,7 +16211,7 @@
 	"Longitude": -73.9689636
  },
  {
-	"Job Number": "M00464123-I1",
+	"Job Number": "M00464381-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/31/2023",
@@ -16211,7 +16224,7 @@
 	"Longitude": -73.9734192
  },
  {
-	"Job Number": "M00464381-I1",
+	"Job Number": "M00464123-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/31/2023",
@@ -17337,7 +17350,7 @@
 	"Borough": "MANHATTAN",
 	"Community Board": "111",
 	"Address": "1809 LEXINGTON AVENUE",
-	"Count": 1,
+	"Count": 3,
 	"Latitude": 40.7963905,
 	"Longitude": -73.9422531
  },
@@ -19105,7 +19118,7 @@
 	"Borough": "MANHATTAN",
 	"Community Board": "101",
 	"Address": "250 WATER STREET",
-	"Count": 2,
+	"Count": 3,
 	"Latitude": 40.70821,
 	"Longitude": -74.0026779
  },
@@ -19162,32 +19175,6 @@
 	"Longitude": -73.910553
  },
  {
-	"Job Number": "M08041427-S1",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/17/2023",
-	"BIN": "1813359",
-	"Borough": "MANHATTAN",
-	"Community Board": "101",
-	"Address": "111 TESTING AVENUE",
-	"Count": 2,
-	"Latitude": 0.0,
-	"Longitude": 0.0
- },
- {
-	"Job Number": "M08041627-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/18/2023",
-	"BIN": "1813359",
-	"Borough": "MANHATTAN",
-	"Community Board": "101",
-	"Address": "111 TESTING AVENUE",
-	"Count": 2,
-	"Latitude": 0.0,
-	"Longitude": 0.0
- },
- {
 	"Job Number": "M08034871-I1",
 	"Job Type": "Alteration CO",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -19214,6 +19201,45 @@
 	"Longitude": 0.0
  },
  {
+	"Job Number": "M08041627-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/18/2023",
+	"BIN": "1813359",
+	"Borough": "MANHATTAN",
+	"Community Board": "101",
+	"Address": "111 TESTING AVENUE",
+	"Count": 2,
+	"Latitude": 0.0,
+	"Longitude": 0.0
+ },
+ {
+	"Job Number": "M08043719-I1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/21/2023",
+	"BIN": "1813359",
+	"Borough": "MANHATTAN",
+	"Community Board": "101",
+	"Address": "111 TESTING AVENUE",
+	"Count": 2,
+	"Latitude": 0.0,
+	"Longitude": 0.0
+ },
+ {
+	"Job Number": "M08041427-S1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/17/2023",
+	"BIN": "1813359",
+	"Borough": "MANHATTAN",
+	"Community Board": "101",
+	"Address": "111 TESTING AVENUE",
+	"Count": 2,
+	"Latitude": 0.0,
+	"Longitude": 0.0
+ },
+ {
 	"Job Number": "M08051785-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -19236,19 +19262,6 @@
 	"Community Board": "101",
 	"Address": "111 TESTING AVENUE",
 	"Count": 1,
-	"Latitude": 0.0,
-	"Longitude": 0.0
- },
- {
-	"Job Number": "M08043719-I1",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/21/2023",
-	"BIN": "1813359",
-	"Borough": "MANHATTAN",
-	"Community Board": "101",
-	"Address": "111 TESTING AVENUE",
-	"Count": 2,
 	"Latitude": 0.0,
 	"Longitude": 0.0
  },
@@ -19513,6 +19526,19 @@
 	"Longitude": -73.9283905
  },
  {
+	"Job Number": "X00745535-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "6/14/2023",
+	"BIN": "2001293",
+	"Borough": "BRONX",
+	"Community Board": "203",
+	"Address": "1148 WASHINGTON AVENUE",
+	"Count": 1,
+	"Latitude": 40.8294601,
+	"Longitude": -73.9076233
+ },
+ {
 	"Job Number": "X00737153-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -19530,19 +19556,6 @@
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/2/2023",
-	"BIN": "2001293",
-	"Borough": "BRONX",
-	"Community Board": "203",
-	"Address": "1148 WASHINGTON AVENUE",
-	"Count": 1,
-	"Latitude": 40.8294601,
-	"Longitude": -73.9076233
- },
- {
-	"Job Number": "X00745535-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/14/2023",
 	"BIN": "2001293",
 	"Borough": "BRONX",
 	"Community Board": "203",
@@ -20514,19 +20527,6 @@
 	"Longitude": -73.9109192
  },
  {
-	"Job Number": "X00748017-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2007211",
-	"Borough": "BRONX",
-	"Community Board": "204",
-	"Address": "1315 FINDLAY AVENUE",
-	"Count": 1,
-	"Latitude": 40.8354912,
-	"Longitude": -73.9110565
- },
- {
 	"Job Number": "X00620098-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -20575,19 +20575,6 @@
 	"Community Board": "204",
 	"Address": "1441 TELLER AVENUE",
 	"Count": 2,
-	"Latitude": 40.8383293,
-	"Longitude": -73.9091873
- },
- {
-	"Job Number": "X00484772-S2",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2007238",
-	"Borough": "BRONX",
-	"Community Board": "204",
-	"Address": "1441 TELLER AVENUE",
-	"Count": 1,
 	"Latitude": 40.8383293,
 	"Longitude": -73.9091873
  },
@@ -20800,19 +20787,6 @@
 	"Longitude": -73.9068069
  },
  {
-	"Job Number": "X00630134-I1",
-	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2007450",
-	"Borough": "BRONX",
-	"Community Board": "205",
-	"Address": "1777 MONROE AVENUE",
-	"Count": 1,
-	"Latitude": 40.8461609,
-	"Longitude": -73.9068069
- },
- {
 	"Job Number": "X00630134-S4",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -20891,10 +20865,10 @@
 	"Longitude": -73.90802
  },
  {
-	"Job Number": "X00658314-I1",
-	"Job Type": "Alteration",
+	"Job Number": "X00628306-I1",
+	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/19/2023",
+	"Permit Expiration Date": "12/1/2023",
 	"BIN": "2007628",
 	"Borough": "BRONX",
 	"Community Board": "205",
@@ -20904,10 +20878,10 @@
 	"Longitude": -73.9070129
  },
  {
-	"Job Number": "X00628306-I1",
-	"Job Type": "New Building",
+	"Job Number": "X00658314-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "12/1/2023",
+	"Permit Expiration Date": "7/19/2023",
 	"BIN": "2007628",
 	"Borough": "BRONX",
 	"Community Board": "205",
@@ -20943,32 +20917,6 @@
 	"Longitude": -73.9023895
  },
  {
-	"Job Number": "X00728948-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "12/26/2023",
-	"BIN": "2007795",
-	"Borough": "BRONX",
-	"Community Board": "204",
-	"Address": "1339 MORRIS AVENUE",
-	"Count": 2,
-	"Latitude": 40.8367882,
-	"Longitude": -73.9123764
- },
- {
-	"Job Number": "X00745240-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/16/2023",
-	"BIN": "2007795",
-	"Borough": "BRONX",
-	"Community Board": "204",
-	"Address": "1339 MORRIS AVENUE",
-	"Count": 1,
-	"Latitude": 40.8367882,
-	"Longitude": -73.9123764
- },
- {
 	"Job Number": "X00704104-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -20995,17 +20943,30 @@
 	"Longitude": -73.9123764
  },
  {
-	"Job Number": "X00737266-I1",
+	"Job Number": "X00745240-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2007797",
+	"Permit Expiration Date": "6/16/2023",
+	"BIN": "2007795",
 	"Borough": "BRONX",
 	"Community Board": "204",
-	"Address": "1331 MORRIS AVENUE",
+	"Address": "1339 MORRIS AVENUE",
 	"Count": 1,
-	"Latitude": 40.8365784,
-	"Longitude": -73.9124908
+	"Latitude": 40.8367882,
+	"Longitude": -73.9123764
+ },
+ {
+	"Job Number": "X00728948-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "12/26/2023",
+	"BIN": "2007795",
+	"Borough": "BRONX",
+	"Community Board": "204",
+	"Address": "1339 MORRIS AVENUE",
+	"Count": 2,
+	"Latitude": 40.8367882,
+	"Longitude": -73.9123764
  },
  {
 	"Job Number": "X00716434-I1",
@@ -21177,19 +21138,6 @@
 	"Longitude": -73.915657
  },
  {
-	"Job Number": "X00527768-I1",
-	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "12/26/2023",
-	"BIN": "2008160",
-	"Borough": "BRONX",
-	"Community Board": "205",
-	"Address": "1670 TOWNSEND AVENUE",
-	"Count": 1,
-	"Latitude": 40.8455811,
-	"Longitude": -73.9123917
- },
- {
 	"Job Number": "X00565690-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -21203,10 +21151,10 @@
 	"Longitude": -73.9123917
  },
  {
-	"Job Number": "X00732720-I1",
-	"Job Type": "Alteration",
+	"Job Number": "X00527768-I1",
+	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
+	"Permit Expiration Date": "12/26/2023",
 	"BIN": "2008160",
 	"Borough": "BRONX",
 	"Community Board": "205",
@@ -22269,19 +22217,6 @@
 	"Longitude": -73.8957672
  },
  {
-	"Job Number": "X00737206-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2010220",
-	"Borough": "BRONX",
-	"Community Board": "203",
-	"Address": "810 EAST  170 STREET",
-	"Count": 1,
-	"Latitude": 40.8328896,
-	"Longitude": -73.8954773
- },
- {
 	"Job Number": "X00713503-I1",
 	"Job Type": "Alteration CO",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -22298,7 +22233,7 @@
 	"Job Number": "X00596214-I1",
 	"Job Type": "Alteration CO",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/2/2023",
+	"Permit Expiration Date": "10/27/2023",
 	"BIN": "2010249",
 	"Borough": "BRONX",
 	"Community Board": "203",
@@ -23894,19 +23829,6 @@
 	"Longitude": -73.8985367
  },
  {
-	"Job Number": "X00750254-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/12/2023",
-	"BIN": "2015354",
-	"Borough": "BRONX",
-	"Community Board": "208",
-	"Address": "2798 WEBB AVENUE",
-	"Count": 3,
-	"Latitude": 40.8717194,
-	"Longitude": -73.9008331
- },
- {
 	"Job Number": "X00640033-S5",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -23929,6 +23851,19 @@
 	"Community Board": "208",
 	"Address": "2798 WEBB AVENUE",
 	"Count": 1,
+	"Latitude": 40.8717194,
+	"Longitude": -73.9008331
+ },
+ {
+	"Job Number": "X00750254-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/12/2023",
+	"BIN": "2015354",
+	"Borough": "BRONX",
+	"Community Board": "208",
+	"Address": "2798 WEBB AVENUE",
+	"Count": 3,
 	"Latitude": 40.8717194,
 	"Longitude": -73.9008331
  },
@@ -24015,19 +23950,6 @@
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/16/2023",
-	"BIN": "2015527",
-	"Borough": "BRONX",
-	"Community Board": "208",
-	"Address": "2835 SEDGWICK AVENUE",
-	"Count": 1,
-	"Latitude": 40.8734703,
-	"Longitude": -73.9021835
- },
- {
-	"Job Number": "X00737246-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
 	"BIN": "2015527",
 	"Borough": "BRONX",
 	"Community Board": "208",
@@ -24583,45 +24505,6 @@
 	"Longitude": -73.8948669
  },
  {
-	"Job Number": "X00527884-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2017421",
-	"Borough": "BRONX",
-	"Community Board": "207",
-	"Address": "2702 CRESTON AVENUE",
-	"Count": 1,
-	"Latitude": 40.8678589,
-	"Longitude": -73.8942566
- },
- {
-	"Job Number": "X00498914-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2017421",
-	"Borough": "BRONX",
-	"Community Board": "207",
-	"Address": "2702 CRESTON AVENUE",
-	"Count": 1,
-	"Latitude": 40.8678589,
-	"Longitude": -73.8942566
- },
- {
-	"Job Number": "X00498914-S1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2017421",
-	"Borough": "BRONX",
-	"Community Board": "207",
-	"Address": "2702 CRESTON AVENUE",
-	"Count": 1,
-	"Latitude": 40.8678589,
-	"Longitude": -73.8942566
- },
- {
 	"Job Number": "X00693247-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -24631,19 +24514,6 @@
 	"Community Board": "207",
 	"Address": "2754 CRESTON AVENUE",
 	"Count": 1,
-	"Latitude": 40.8695107,
-	"Longitude": -73.8927765
- },
- {
-	"Job Number": "X00684439-I1",
-	"Job Type": "New Building",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/4/2023",
-	"BIN": "2017447",
-	"Borough": "BRONX",
-	"Community Board": "207",
-	"Address": "2754 CRESTON AVENUE",
-	"Count": 2,
 	"Latitude": 40.8695107,
 	"Longitude": -73.8927765
  },
@@ -24661,6 +24531,19 @@
 	"Longitude": -73.8927765
  },
  {
+	"Job Number": "X00684439-I1",
+	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/4/2023",
+	"BIN": "2017447",
+	"Borough": "BRONX",
+	"Community Board": "207",
+	"Address": "2754 CRESTON AVENUE",
+	"Count": 2,
+	"Latitude": 40.8695107,
+	"Longitude": -73.8927765
+ },
+ {
 	"Job Number": "X00736992-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -24672,19 +24555,6 @@
 	"Count": 1,
 	"Latitude": 40.8695107,
 	"Longitude": -73.8927765
- },
- {
-	"Job Number": "X00716152-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "10/5/2023",
-	"BIN": "2017449",
-	"Borough": "BRONX",
-	"Community Board": "207",
-	"Address": "2758 CRESTON AVENUE",
-	"Count": 5,
-	"Latitude": 40.8696289,
-	"Longitude": -73.8926773
  },
  {
 	"Job Number": "X00684456-I1",
@@ -24722,6 +24592,19 @@
 	"Community Board": "207",
 	"Address": "2758 CRESTON AVENUE",
 	"Count": 1,
+	"Latitude": 40.8696289,
+	"Longitude": -73.8926773
+ },
+ {
+	"Job Number": "X00716152-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "10/5/2023",
+	"BIN": "2017449",
+	"Borough": "BRONX",
+	"Community Board": "207",
+	"Address": "2758 CRESTON AVENUE",
+	"Count": 5,
 	"Latitude": 40.8696289,
 	"Longitude": -73.8926773
  },
@@ -25907,19 +25790,6 @@
 	"Count": 1,
 	"Latitude": 40.86763,
 	"Longitude": -73.8623428
- },
- {
-	"Job Number": "X00605632-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2053813",
-	"Borough": "BRONX",
-	"Community Board": "211",
-	"Address": "2721 BRONXWOOD AVENUE",
-	"Count": 1,
-	"Latitude": 40.8665504,
-	"Longitude": -73.8618927
  },
  {
 	"Job Number": "X00683589-I1",
@@ -27573,19 +27443,6 @@
 	"Longitude": -73.889183
  },
  {
-	"Job Number": "X00743459-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2094681",
-	"Borough": "BRONX",
-	"Community Board": "205",
-	"Address": "80 GAR CLINTON PLACE",
-	"Count": 1,
-	"Latitude": 40.8573494,
-	"Longitude": -73.9084778
- },
- {
 	"Job Number": "X00710727-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -28392,19 +28249,6 @@
 	"Longitude": -73.8952866
  },
  {
-	"Job Number": "X00737235-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2117967",
-	"Borough": "BRONX",
-	"Community Board": "203",
-	"Address": "1395 BRISTOW STREET",
-	"Count": 1,
-	"Latitude": 40.8329506,
-	"Longitude": -73.8952866
- },
- {
 	"Job Number": "201207979",
 	"Job Type": "DM",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -28457,7 +28301,7 @@
 	"Longitude": -73.8822708
  },
  {
-	"Job Number": "X00725573-I1",
+	"Job Number": "X00723860-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "11/2/2023",
@@ -28470,7 +28314,7 @@
 	"Longitude": -73.8856201
  },
  {
-	"Job Number": "X00723860-I1",
+	"Job Number": "X00725573-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "11/2/2023",
@@ -28561,10 +28405,10 @@
 	"Longitude": -73.9027634
  },
  {
-	"Job Number": "X00623831-I1",
+	"Job Number": "X00606899-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "3/6/2024",
+	"Permit Expiration Date": "3/31/2024",
 	"BIN": "2123153",
 	"Borough": "BRONX",
 	"Community Board": "212",
@@ -28574,10 +28418,10 @@
 	"Longitude": -73.8461914
  },
  {
-	"Job Number": "X00606899-I1",
+	"Job Number": "X00623831-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "3/31/2024",
+	"Permit Expiration Date": "3/6/2024",
 	"BIN": "2123153",
 	"Borough": "BRONX",
 	"Community Board": "212",
@@ -28860,8 +28704,8 @@
 	"Longitude": -73.9213333
  },
  {
-	"Job Number": "X00664644-I1",
-	"Job Type": "New Building",
+	"Job Number": "X00679776-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/16/2023",
 	"BIN": "2128688",
@@ -28873,8 +28717,8 @@
 	"Longitude": -73.8908768
  },
  {
-	"Job Number": "X00679776-I1",
-	"Job Type": "Alteration",
+	"Job Number": "X00664644-I1",
+	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/16/2023",
 	"BIN": "2128688",
@@ -29107,7 +28951,7 @@
 	"Longitude": -73.8981094
  },
  {
-	"Job Number": "X00802008-I1",
+	"Job Number": "X00820699-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/16/2023",
@@ -29120,7 +28964,7 @@
 	"Longitude": -73.8956528
  },
  {
-	"Job Number": "X00820699-I1",
+	"Job Number": "X00802008-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "12/16/2023",
@@ -31733,19 +31577,6 @@
 	"Longitude": -73.8970337
  },
  {
-	"Job Number": "X00720858-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/2/2023",
-	"BIN": "2802454",
-	"Borough": "BRONX",
-	"Community Board": "206",
-	"Address": "2414 CAMBRELENG AVENUE",
-	"Count": 2,
-	"Latitude": 40.8548317,
-	"Longitude": -73.8848724
- },
- {
 	"Job Number": "X00721454-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -31772,10 +31603,23 @@
 	"Longitude": -73.8848724
  },
  {
-	"Job Number": "X00599800-I1",
-	"Job Type": "New Building",
+	"Job Number": "X00720858-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/23/2023",
+	"Permit Expiration Date": "11/2/2023",
+	"BIN": "2802454",
+	"Borough": "BRONX",
+	"Community Board": "206",
+	"Address": "2414 CAMBRELENG AVENUE",
+	"Count": 2,
+	"Latitude": 40.8548317,
+	"Longitude": -73.8848724
+ },
+ {
+	"Job Number": "X00618317-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/9/2023",
 	"BIN": "2802508",
 	"Borough": "BRONX",
 	"Community Board": "212",
@@ -31785,10 +31629,10 @@
 	"Longitude": -73.860527
  },
  {
-	"Job Number": "X00618317-I1",
-	"Job Type": "Alteration",
+	"Job Number": "X00599800-I1",
+	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/9/2023",
+	"Permit Expiration Date": "5/23/2023",
 	"BIN": "2802508",
 	"Borough": "BRONX",
 	"Community Board": "212",
@@ -31824,19 +31668,6 @@
 	"Longitude": -73.9162216
  },
  {
-	"Job Number": "X00737069-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2806384",
-	"Borough": "BRONX",
-	"Community Board": "203",
-	"Address": "806 EAST  170 STREET",
-	"Count": 1,
-	"Latitude": 40.833149,
-	"Longitude": -73.8955002
- },
- {
 	"Job Number": "220747164",
 	"Job Type": "DM",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -31848,19 +31679,6 @@
 	"Count": 1,
 	"Latitude": 40.8518715,
 	"Longitude": -73.8937073
- },
- {
-	"Job Number": "X00718591-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/23/2023",
-	"BIN": "2807142",
-	"Borough": "BRONX",
-	"Community Board": "206",
-	"Address": "536 EAST  183 STREET",
-	"Count": 1,
-	"Latitude": 40.8542786,
-	"Longitude": -73.8916473
  },
  {
 	"Job Number": "X00530220-I1",
@@ -31893,6 +31711,19 @@
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/2/2023",
+	"BIN": "2807142",
+	"Borough": "BRONX",
+	"Community Board": "206",
+	"Address": "536 EAST  183 STREET",
+	"Count": 1,
+	"Latitude": 40.8542786,
+	"Longitude": -73.8916473
+ },
+ {
+	"Job Number": "X00718591-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/23/2023",
 	"BIN": "2807142",
 	"Borough": "BRONX",
 	"Community Board": "206",
@@ -32045,19 +31876,6 @@
 	"Longitude": 0.0
  },
  {
-	"Job Number": "X00729550-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/1/2023",
-	"BIN": "2814313",
-	"Borough": "BRONX",
-	"Community Board": "204",
-	"Address": "947 SHERIDAN AVENUE",
-	"Count": 1,
-	"Latitude": 40.8284607,
-	"Longitude": -73.9202499
- },
- {
 	"Job Number": "X00713265-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -32086,6 +31904,19 @@
  {
 	"Job Number": "X00713265-S7",
 	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "6/1/2023",
+	"BIN": "2814313",
+	"Borough": "BRONX",
+	"Community Board": "204",
+	"Address": "947 SHERIDAN AVENUE",
+	"Count": 1,
+	"Latitude": 40.8284607,
+	"Longitude": -73.9202499
+ },
+ {
+	"Job Number": "X00729550-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/1/2023",
 	"BIN": "2814313",
@@ -32357,7 +32188,7 @@
 	"Longitude": -73.9024582
  },
  {
-	"Job Number": "X00516229-I1",
+	"Job Number": "X00535497-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/7/2023",
@@ -32370,7 +32201,7 @@
 	"Longitude": -73.9024582
  },
  {
-	"Job Number": "X00535497-I1",
+	"Job Number": "X00516229-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/7/2023",
@@ -32457,19 +32288,6 @@
 	"Community Board": "202",
 	"Address": "872 EAST  164 STREET",
 	"Count": 2,
-	"Latitude": 0.0,
-	"Longitude": 0.0
- },
- {
-	"Job Number": "X00520867-S4",
-	"Job Type": "New Building",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "2831759",
-	"Borough": "BRONX",
-	"Community Board": "202",
-	"Address": "872 EAST  164 STREET",
-	"Count": 1,
 	"Latitude": 0.0,
 	"Longitude": 0.0
  },
@@ -35711,7 +35529,7 @@
 	"Longitude": -73.9754028
  },
  {
-	"Job Number": "B00614930-I1",
+	"Job Number": "B00612386-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/6/2023",
@@ -35724,7 +35542,7 @@
 	"Longitude": -73.9798508
  },
  {
-	"Job Number": "B00612386-I1",
+	"Job Number": "B00614930-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/6/2023",
@@ -36123,19 +35941,6 @@
 	"Community Board": "306",
 	"Address": "197 9 STREET",
 	"Count": 3,
-	"Latitude": 40.6714897,
-	"Longitude": -73.9901505
- },
- {
-	"Job Number": "322054067",
-	"Job Type": "A2",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "3022044",
-	"Borough": "BROOKLYN",
-	"Community Board": "306",
-	"Address": "197 9 STREET",
-	"Count": 1,
 	"Latitude": 40.6714897,
 	"Longitude": -73.9901505
  },
@@ -36647,8 +36452,8 @@
 	"Longitude": -73.9830322
  },
  {
-	"Job Number": "B00689610-I1",
-	"Job Type": "Alteration",
+	"Job Number": "B00586566-I1",
+	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/8/2023",
 	"BIN": "3026790",
@@ -36660,8 +36465,8 @@
 	"Longitude": -73.9766922
  },
  {
-	"Job Number": "B00586566-I1",
-	"Job Type": "New Building",
+	"Job Number": "B00689610-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/8/2023",
 	"BIN": "3026790",
@@ -36829,19 +36634,6 @@
 	"Longitude": -73.9730072
  },
  {
-	"Job Number": "B00507075-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/27/2023",
-	"BIN": "3028166",
-	"Borough": "BROOKLYN",
-	"Community Board": "308",
-	"Address": "165A ST MARKS AVENUE",
-	"Count": 1,
-	"Latitude": 40.6792297,
-	"Longitude": -73.9704437
- },
- {
 	"Job Number": "B00478441-I1",
 	"Job Type": "Alteration CO",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -36851,6 +36643,19 @@
 	"Community Board": "308",
 	"Address": "165A ST MARKS AVENUE",
 	"Count": 2,
+	"Latitude": 40.6792297,
+	"Longitude": -73.9704437
+ },
+ {
+	"Job Number": "B00507075-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/27/2023",
+	"BIN": "3028166",
+	"Borough": "BROOKLYN",
+	"Community Board": "308",
+	"Address": "165A ST MARKS AVENUE",
+	"Count": 1,
 	"Latitude": 40.6792297,
 	"Longitude": -73.9704437
  },
@@ -39728,10 +39533,10 @@
 	"Longitude": -73.9563522
  },
  {
-	"Job Number": "B00460070-I1",
+	"Job Number": "B00459598-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "8/10/2023",
+	"Permit Expiration Date": "7/25/2023",
 	"BIN": "3055768",
 	"Borough": "BROOKLYN",
 	"Community Board": "303",
@@ -39741,10 +39546,10 @@
 	"Longitude": -73.9595108
  },
  {
-	"Job Number": "B00459598-I1",
+	"Job Number": "B00460070-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/25/2023",
+	"Permit Expiration Date": "8/10/2023",
 	"BIN": "3055768",
 	"Borough": "BROOKLYN",
 	"Community Board": "303",
@@ -41288,19 +41093,6 @@
 	"Longitude": -73.9596634
  },
  {
-	"Job Number": "B00704101-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/8/2023",
-	"BIN": "3062316",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "123 NORTH    4 STREET",
-	"Count": 1,
-	"Latitude": 40.7167587,
-	"Longitude": -73.9600067
- },
- {
 	"Job Number": "B00328495-S1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -41316,6 +41108,19 @@
  {
 	"Job Number": "B00683331-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/8/2023",
+	"BIN": "3062316",
+	"Borough": "BROOKLYN",
+	"Community Board": "301",
+	"Address": "123 NORTH    4 STREET",
+	"Count": 1,
+	"Latitude": 40.7167587,
+	"Longitude": -73.9600067
+ },
+ {
+	"Job Number": "B00704101-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/8/2023",
 	"BIN": "3062316",
@@ -41535,6 +41340,19 @@
 	"Longitude": -73.9555588
  },
  {
+	"Job Number": "B00733938-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "6/1/2023",
+	"BIN": "3062893",
+	"Borough": "BROOKLYN",
+	"Community Board": "301",
+	"Address": "303 WYTHE AVENUE",
+	"Count": 1,
+	"Latitude": 40.7144318,
+	"Longitude": -73.9648285
+ },
+ {
 	"Job Number": "B00730934-S1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -41552,19 +41370,6 @@
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/26/2023",
-	"BIN": "3062893",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "303 WYTHE AVENUE",
-	"Count": 1,
-	"Latitude": 40.7144318,
-	"Longitude": -73.9648285
- },
- {
-	"Job Number": "B00733938-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/1/2023",
 	"BIN": "3062893",
 	"Borough": "BROOKLYN",
 	"Community Board": "301",
@@ -43095,19 +42900,6 @@
 	"Longitude": -73.9443817
  },
  {
-	"Job Number": "B00631140-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/27/2023",
-	"BIN": "3068154",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "366 LEONARD STREET",
-	"Count": 1,
-	"Latitude": 40.7172508,
-	"Longitude": -73.9479294
- },
- {
 	"Job Number": "B00635778-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -43117,6 +42909,19 @@
 	"Community Board": "301",
 	"Address": "366 LEONARD STREET",
 	"Count": 2,
+	"Latitude": 40.7172508,
+	"Longitude": -73.9479294
+ },
+ {
+	"Job Number": "B00631140-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "4/27/2023",
+	"BIN": "3068154",
+	"Borough": "BROOKLYN",
+	"Community Board": "301",
+	"Address": "366 LEONARD STREET",
+	"Count": 1,
 	"Latitude": 40.7172508,
 	"Longitude": -73.9479294
  },
@@ -43537,7 +43342,7 @@
 	"Longitude": -73.9422607
  },
  {
-	"Job Number": "B00785251-I1",
+	"Job Number": "B00785966-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/25/2023",
@@ -43550,7 +43355,7 @@
 	"Longitude": -73.9467392
  },
  {
-	"Job Number": "B00785966-I1",
+	"Job Number": "B00785251-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/25/2023",
@@ -43704,19 +43509,6 @@
 	"Count": 3,
 	"Latitude": 40.7114716,
 	"Longitude": -73.9483337
- },
- {
-	"Job Number": "321197129",
-	"Job Type": "NB",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/15/2023",
-	"BIN": "3069342",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "490 LORIMER ST",
-	"Count": 3,
-	"Latitude": 40.7116318,
-	"Longitude": -73.9486771
  },
  {
 	"Job Number": "322162618",
@@ -48217,6 +48009,32 @@
 	"Longitude": -73.9836273
  },
  {
+	"Job Number": "B00657649-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "8/26/2023",
+	"BIN": "3128417",
+	"Borough": "BROOKLYN",
+	"Community Board": "312",
+	"Address": "1528 45 STREET",
+	"Count": 2,
+	"Latitude": 40.6339684,
+	"Longitude": -73.984787
+ },
+ {
+	"Job Number": "B00657655-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "8/26/2023",
+	"BIN": "3128418",
+	"Borough": "BROOKLYN",
+	"Community Board": "312",
+	"Address": "1532 45 STREET",
+	"Count": 2,
+	"Latitude": 40.6339302,
+	"Longitude": -73.9847183
+ },
+ {
 	"Job Number": "B00703170-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -48319,6 +48137,19 @@
 	"Count": 1,
 	"Latitude": 40.6300011,
 	"Longitude": -73.9862289
+ },
+ {
+	"Job Number": "B00646478-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/18/2023",
+	"BIN": "3129507",
+	"Borough": "BROOKLYN",
+	"Community Board": "312",
+	"Address": "1914 50 STREET",
+	"Count": 1,
+	"Latitude": 40.6258888,
+	"Longitude": -73.9789581
  },
  {
 	"Job Number": "320595101",
@@ -48594,19 +48425,6 @@
 	"Longitude": -73.9910736
  },
  {
-	"Job Number": "B00655338-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "12/7/2023",
-	"BIN": "3132212",
-	"Borough": "BROOKLYN",
-	"Community Board": "312",
-	"Address": "1944 60 STREET",
-	"Count": 1,
-	"Latitude": 40.6198311,
-	"Longitude": -73.9841537
- },
- {
 	"Job Number": "B00652552-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -48616,6 +48434,19 @@
 	"Community Board": "312",
 	"Address": "1944 60 STREET",
 	"Count": 2,
+	"Latitude": 40.6198311,
+	"Longitude": -73.9841537
+ },
+ {
+	"Job Number": "B00655338-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "12/7/2023",
+	"BIN": "3132212",
+	"Borough": "BROOKLYN",
+	"Community Board": "312",
+	"Address": "1944 60 STREET",
+	"Count": 1,
 	"Latitude": 40.6198311,
 	"Longitude": -73.9841537
  },
@@ -50919,32 +50750,6 @@
 	"Count": 1,
 	"Latitude": 40.6189194,
 	"Longitude": -73.9683685
- },
- {
-	"Job Number": "B00452592-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "3171974",
-	"Borough": "BROOKLYN",
-	"Community Board": "312",
-	"Address": "1241 EAST    9 STREET",
-	"Count": 2,
-	"Latitude": 40.6187401,
-	"Longitude": -73.9657135
- },
- {
-	"Job Number": "B00452592-S4",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "3171974",
-	"Borough": "BROOKLYN",
-	"Community Board": "312",
-	"Address": "1241 EAST    9 STREET",
-	"Count": 2,
-	"Latitude": 40.6187401,
-	"Longitude": -73.9657135
  },
  {
 	"Job Number": "321519576",
@@ -54327,19 +54132,6 @@
 	"Longitude": -73.9689789
  },
  {
-	"Job Number": "B00448759-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/1/2023",
-	"BIN": "3251678",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "480 KENT AVENUE",
-	"Count": 3,
-	"Latitude": 40.7076683,
-	"Longitude": -73.9689789
- },
- {
 	"Job Number": "B00448218-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -54348,6 +54140,19 @@
 	"Borough": "BROOKLYN",
 	"Community Board": "301",
 	"Address": "490 KENT AVENUE",
+	"Count": 3,
+	"Latitude": 40.7076683,
+	"Longitude": -73.9689789
+ },
+ {
+	"Job Number": "B00448759-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/1/2023",
+	"BIN": "3251678",
+	"Borough": "BROOKLYN",
+	"Community Board": "301",
+	"Address": "480 KENT AVENUE",
 	"Count": 3,
 	"Latitude": 40.7076683,
 	"Longitude": -73.9689789
@@ -56238,7 +56043,7 @@
 	"Longitude": -73.9981384
  },
  {
-	"Job Number": "B00636431-I1",
+	"Job Number": "B00636392-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/18/2023",
@@ -56251,7 +56056,7 @@
 	"Longitude": -73.9981384
  },
  {
-	"Job Number": "B00636392-I1",
+	"Job Number": "B00636431-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/18/2023",
@@ -56935,7 +56740,7 @@
 	"Borough": "BROOKLYN",
 	"Community Board": "306",
 	"Address": "226 NEVINS STREET",
-	"Count": 1,
+	"Count": 2,
 	"Latitude": 40.681469,
 	"Longitude": -73.9863586
  },
@@ -57000,7 +56805,7 @@
 	"Borough": "BROOKLYN",
 	"Community Board": "306",
 	"Address": "242 NEVINS STREET",
-	"Count": 1,
+	"Count": 2,
 	"Latitude": 40.6809006,
 	"Longitude": -73.9867401
  },
@@ -57668,7 +57473,20 @@
 	"Longitude": -73.9990997
  },
  {
-	"Job Number": "B00556243-I1",
+	"Job Number": "B08046890-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "9/1/2023",
+	"BIN": "3347736",
+	"Borough": "BROOKLYN",
+	"Community Board": "302",
+	"Address": "330 JAY STREET",
+	"Count": 1,
+	"Latitude": 40.6945992,
+	"Longitude": -73.9876938
+ },
+ {
+	"Job Number": "B00748874-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/31/2023",
@@ -57681,7 +57499,7 @@
 	"Longitude": -73.9518204
  },
  {
-	"Job Number": "B00748874-I1",
+	"Job Number": "B00556243-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/31/2023",
@@ -62257,19 +62075,6 @@
 	"Longitude": -73.9478912
  },
  {
-	"Job Number": "B00606211-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "7/7/2023",
-	"BIN": "3429038",
-	"Borough": "BROOKLYN",
-	"Community Board": "301",
-	"Address": "11 GERRY STREET",
-	"Count": 3,
-	"Latitude": 40.7011604,
-	"Longitude": -73.9486618
- },
- {
 	"Job Number": "B00509455-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -62285,6 +62090,19 @@
  {
 	"Job Number": "B00509455-S2",
 	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/7/2023",
+	"BIN": "3429038",
+	"Borough": "BROOKLYN",
+	"Community Board": "301",
+	"Address": "11 GERRY STREET",
+	"Count": 3,
+	"Latitude": 40.7011604,
+	"Longitude": -73.9486618
+ },
+ {
+	"Job Number": "B00606211-I1",
+	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/7/2023",
 	"BIN": "3429038",
@@ -63284,7 +63102,7 @@
 	"Longitude": -73.9522095
  },
  {
-	"Job Number": "B00740062-I1",
+	"Job Number": "B00740655-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/3/2023",
@@ -63297,7 +63115,7 @@
 	"Longitude": -73.9428635
  },
  {
-	"Job Number": "B00740655-I1",
+	"Job Number": "B00740062-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/3/2023",
@@ -63804,19 +63622,6 @@
 	"Longitude": -73.9468002
  },
  {
-	"Job Number": "B00826613-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "10/1/2023",
-	"BIN": "3429318",
-	"Borough": "BROOKLYN",
-	"Community Board": "306",
-	"Address": "683 COURT STREET",
-	"Count": 1,
-	"Latitude": 40.6688118,
-	"Longitude": -74.0034332
- },
- {
 	"Job Number": "B00703468-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -63852,6 +63657,19 @@
 	"Community Board": "306",
 	"Address": "683 COURT STREET",
 	"Count": 2,
+	"Latitude": 40.6688118,
+	"Longitude": -74.0034332
+ },
+ {
+	"Job Number": "B00826613-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "10/1/2023",
+	"BIN": "3429318",
+	"Borough": "BROOKLYN",
+	"Community Board": "306",
+	"Address": "683 COURT STREET",
+	"Count": 1,
 	"Latitude": 40.6688118,
 	"Longitude": -74.0034332
  },
@@ -64452,19 +64270,6 @@
 	"Count": 1,
 	"Latitude": 40.7028618,
 	"Longitude": -73.9463882
- },
- {
-	"Job Number": "B00745515-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "3429400",
-	"Borough": "BROOKLYN",
-	"Community Board": "304",
-	"Address": "649 HART STREET",
-	"Count": 1,
-	"Latitude": 40.6987305,
-	"Longitude": -73.9266663
  },
  {
 	"Job Number": "B00714338-I1",
@@ -65585,6 +65390,32 @@
 	"Longitude": -74.0139465
  },
  {
+	"Job Number": "B08029487-S2",
+	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/31/2023",
+	"BIN": "3429601",
+	"Borough": "BROOKLYN",
+	"Community Board": "307",
+	"Address": "602 60 STREET",
+	"Count": 1,
+	"Latitude": 40.6377716,
+	"Longitude": -74.0139465
+ },
+ {
+	"Job Number": "B08029487-S3",
+	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "7/31/2023",
+	"BIN": "3429601",
+	"Borough": "BROOKLYN",
+	"Community Board": "307",
+	"Address": "602 60 STREET",
+	"Count": 1,
+	"Latitude": 40.6377716,
+	"Longitude": -74.0139465
+ },
+ {
 	"Job Number": "B08029487-S9",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -66625,7 +66456,7 @@
 	"Longitude": -73.9150238
  },
  {
-	"Job Number": "Q00750560-I1",
+	"Job Number": "Q00745972-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/6/2023",
@@ -66638,7 +66469,7 @@
 	"Longitude": -73.917717
  },
  {
-	"Job Number": "Q00745972-I1",
+	"Job Number": "Q00750560-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "9/6/2023",
@@ -68380,19 +68211,6 @@
 	"Longitude": -73.9238892
  },
  {
-	"Job Number": "Q00549038-I1",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "6/3/2023",
-	"BIN": "4019940",
-	"Borough": "QUEENS",
-	"Community Board": "401",
-	"Address": "18-17 26 AVENUE",
-	"Count": 2,
-	"Latitude": 40.7740402,
-	"Longitude": -73.9262085
- },
- {
 	"Job Number": "Q00525402-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -68428,6 +68246,19 @@
 	"Community Board": "401",
 	"Address": "18-17 26 AVENUE",
 	"Count": 3,
+	"Latitude": 40.7740402,
+	"Longitude": -73.9262085
+ },
+ {
+	"Job Number": "Q00549038-I1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "6/3/2023",
+	"BIN": "4019940",
+	"Borough": "QUEENS",
+	"Community Board": "401",
+	"Address": "18-17 26 AVENUE",
+	"Count": 2,
 	"Latitude": 40.7740402,
 	"Longitude": -73.9262085
  },
@@ -71659,7 +71490,7 @@
 	"Job Number": "Q00812200-I1",
 	"Job Type": "Alteration CO",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/1/2023",
+	"Permit Expiration Date": "2/14/2024",
 	"BIN": "4108941",
 	"Borough": "QUEENS",
 	"Community Board": "407",
@@ -71825,7 +71656,7 @@
 	"Longitude": -73.7993698
  },
  {
-	"Job Number": "Q00761984-I1",
+	"Job Number": "Q00745254-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/2/2023",
@@ -71838,7 +71669,7 @@
 	"Longitude": -73.8326721
  },
  {
-	"Job Number": "Q00745254-I1",
+	"Job Number": "Q00761984-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/2/2023",
@@ -72280,7 +72111,7 @@
 	"Longitude": -73.8253937
  },
  {
-	"Job Number": "421899164",
+	"Job Number": "421899404",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/13/2023",
@@ -72293,7 +72124,7 @@
 	"Longitude": -73.8214188
  },
  {
-	"Job Number": "421899404",
+	"Job Number": "421899164",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/13/2023",
@@ -72369,6 +72200,19 @@
 	"Count": 3,
 	"Latitude": 40.7550812,
 	"Longitude": -73.821373
+ },
+ {
+	"Job Number": "Q00832115-I1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "1/9/2024",
+	"BIN": "4117703",
+	"Borough": "QUEENS",
+	"Community Board": "407",
+	"Address": "143-19 LABURNUM AVENUE",
+	"Count": 2,
+	"Latitude": 40.7513199,
+	"Longitude": -73.8147583
  },
  {
 	"Job Number": "Q00486370-I1",
@@ -73073,19 +72917,6 @@
 	"Longitude": -73.7760391
  },
  {
-	"Job Number": "421899574",
-	"Job Type": "A2",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "3/27/2024",
-	"BIN": "4135975",
-	"Borough": "QUEENS",
-	"Community Board": "411",
-	"Address": "214-33 35TH AVENUE",
-	"Count": 1,
-	"Latitude": 40.7701607,
-	"Longitude": -73.7712173
- },
- {
 	"Job Number": "421898058",
 	"Job Type": "NB",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -73095,6 +72926,19 @@
 	"Community Board": "411",
 	"Address": "34-06 214 LANE",
 	"Count": 2,
+	"Latitude": 40.7701607,
+	"Longitude": -73.7712173
+ },
+ {
+	"Job Number": "421899574",
+	"Job Type": "A2",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "3/27/2024",
+	"BIN": "4135975",
+	"Borough": "QUEENS",
+	"Community Board": "411",
+	"Address": "214-33 35TH AVENUE",
+	"Count": 1,
 	"Latitude": 40.7701607,
 	"Longitude": -73.7712173
  },
@@ -73266,19 +73110,6 @@
 	"Count": 3,
 	"Latitude": 40.7646904,
 	"Longitude": -73.7661438
- },
- {
-	"Job Number": "Q00549297-I1",
-	"Job Type": "New Building",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "4138585",
-	"Borough": "QUEENS",
-	"Community Board": "411",
-	"Address": "42-11 218 STREET",
-	"Count": 1,
-	"Latitude": 40.763279,
-	"Longitude": -73.764183
  },
  {
 	"Job Number": "Q00779568-I1",
@@ -73957,7 +73788,7 @@
 	"Longitude": -73.805397
  },
  {
-	"Job Number": "Q00555109-I1",
+	"Job Number": "Q00464946-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/1/2023",
@@ -73970,7 +73801,7 @@
 	"Longitude": -73.806488
  },
  {
-	"Job Number": "Q00464946-I1",
+	"Job Number": "Q00555109-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "8/1/2023",
@@ -76986,19 +76817,6 @@
 	"Longitude": -73.7890015
  },
  {
-	"Job Number": "421790903",
-	"Job Type": "DM",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "4212333",
-	"Borough": "QUEENS",
-	"Community Board": "412",
-	"Address": "88-11 179TH PLACE",
-	"Count": 1,
-	"Latitude": 40.7125092,
-	"Longitude": -73.7830887
- },
- {
 	"Job Number": "421718485",
 	"Job Type": "NB",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -79846,19 +79664,6 @@
 	"Longitude": -73.7665329
  },
  {
-	"Job Number": "Q00723547-I1",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "12/30/2023",
-	"BIN": "4286188",
-	"Borough": "QUEENS",
-	"Community Board": "413",
-	"Address": "182-22 150 AVENUE",
-	"Count": 5,
-	"Latitude": 40.6567993,
-	"Longitude": -73.7651978
- },
- {
 	"Job Number": "Q00727048-S1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -79868,6 +79673,19 @@
 	"Community Board": "413",
 	"Address": "182-22 150 AVENUE",
 	"Count": 2,
+	"Latitude": 40.6567993,
+	"Longitude": -73.7651978
+ },
+ {
+	"Job Number": "Q00723547-I1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "12/30/2023",
+	"BIN": "4286188",
+	"Borough": "QUEENS",
+	"Community Board": "413",
+	"Address": "182-22 150 AVENUE",
+	"Count": 5,
 	"Latitude": 40.6567993,
 	"Longitude": -73.7651978
  },
@@ -79937,19 +79755,6 @@
 	"Longitude": -73.737999
  },
  {
-	"Job Number": "Q00567934-I1",
-	"Job Type": "Alteration CO",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/26/2023",
-	"BIN": "4288343",
-	"Borough": "QUEENS",
-	"Community Board": "413",
-	"Address": "145-29 243 STREET",
-	"Count": 2,
-	"Latitude": 40.6588516,
-	"Longitude": -73.7401199
- },
- {
 	"Job Number": "Q00567900-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -79959,6 +79764,19 @@
 	"Community Board": "413",
 	"Address": "145-29 243 STREET",
 	"Count": 1,
+	"Latitude": 40.6588516,
+	"Longitude": -73.7401199
+ },
+ {
+	"Job Number": "Q00567934-I1",
+	"Job Type": "Alteration CO",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/26/2023",
+	"BIN": "4288343",
+	"Borough": "QUEENS",
+	"Community Board": "413",
+	"Address": "145-29 243 STREET",
+	"Count": 2,
 	"Latitude": 40.6588516,
 	"Longitude": -73.7401199
  },
@@ -82303,7 +82121,7 @@
 	"Longitude": -73.820961
  },
  {
-	"Job Number": "Q00686222-I1",
+	"Job Number": "Q00652568-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/29/2023",
@@ -82316,7 +82134,7 @@
 	"Longitude": -73.820961
  },
  {
-	"Job Number": "Q00652568-I1",
+	"Job Number": "Q00686222-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "6/29/2023",
@@ -83575,32 +83393,6 @@
 	"Count": 1,
 	"Latitude": 40.7774696,
 	"Longitude": -73.8233871
- },
- {
-	"Job Number": "Q00807505-I1",
-	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "4560688",
-	"Borough": "QUEENS",
-	"Community Board": "411",
-	"Address": "214-69 GAR 33 AVENUE",
-	"Count": 1,
-	"Latitude": 40.7730713,
-	"Longitude": -73.7708664
- },
- {
-	"Job Number": "Q00652718-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "4560688",
-	"Borough": "QUEENS",
-	"Community Board": "411",
-	"Address": "214-69 GAR 33 AVENUE",
-	"Count": 1,
-	"Latitude": 40.7730713,
-	"Longitude": -73.7708664
  },
  {
 	"Job Number": "421813014",
@@ -85163,6 +84955,19 @@
 	"Longitude": -73.9478302
  },
  {
+	"Job Number": "Q00850768-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "1/1/2024",
+	"BIN": "4619905",
+	"Borough": "QUEENS",
+	"Community Board": "407",
+	"Address": "39-15 126 STREET",
+	"Count": 1,
+	"Latitude": 40.7577591,
+	"Longitude": -73.8422012
+ },
+ {
 	"Job Number": "Q00725363-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -85280,19 +85085,6 @@
 	"Longitude": -73.8426514
  },
  {
-	"Job Number": "421899379",
-	"Job Type": "A2",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "10/31/2023",
-	"BIN": "4623085",
-	"Borough": "QUEENS",
-	"Community Board": "406",
-	"Address": "61-01 97TH PLACE",
-	"Count": 1,
-	"Latitude": 40.7340698,
-	"Longitude": -73.8609772
- },
- {
 	"Job Number": "421902123",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -85310,6 +85102,19 @@
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "3/27/2024",
+	"BIN": "4623085",
+	"Borough": "QUEENS",
+	"Community Board": "406",
+	"Address": "61-01 97TH PLACE",
+	"Count": 1,
+	"Latitude": 40.7340698,
+	"Longitude": -73.8609772
+ },
+ {
+	"Job Number": "421899379",
+	"Job Type": "A2",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "10/31/2023",
 	"BIN": "4623085",
 	"Borough": "QUEENS",
 	"Community Board": "406",
@@ -86034,10 +85839,10 @@
 	"Longitude": -73.8242722
  },
  {
-	"Job Number": "Q00719173-I1",
+	"Job Number": "Q00716752-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/17/2023",
+	"Permit Expiration Date": "5/16/2023",
 	"BIN": "4623670",
 	"Borough": "QUEENS",
 	"Community Board": "412",
@@ -86047,10 +85852,10 @@
 	"Longitude": -73.8136673
  },
  {
-	"Job Number": "Q00716752-I1",
+	"Job Number": "Q00719173-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/16/2023",
+	"Permit Expiration Date": "5/17/2023",
 	"BIN": "4623670",
 	"Borough": "QUEENS",
 	"Community Board": "412",
@@ -86398,19 +86203,6 @@
 	"Longitude": -73.9401474
  },
  {
-	"Job Number": "Q00551187-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "8/31/2023",
-	"BIN": "4623864",
-	"Borough": "QUEENS",
-	"Community Board": "407",
-	"Address": "134-16 35 AVENUE",
-	"Count": 10,
-	"Latitude": 40.7639503,
-	"Longitude": -73.8326035
- },
- {
 	"Job Number": "Q00549624-I1",
 	"Job Type": "ALT-CO - New Building with Existing Elements to Remain",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -86420,6 +86212,19 @@
 	"Community Board": "407",
 	"Address": "134-16 35 AVENUE",
 	"Count": 4,
+	"Latitude": 40.7639503,
+	"Longitude": -73.8326035
+ },
+ {
+	"Job Number": "Q00551187-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "8/31/2023",
+	"BIN": "4623864",
+	"Borough": "QUEENS",
+	"Community Board": "407",
+	"Address": "134-16 35 AVENUE",
+	"Count": 10,
 	"Latitude": 40.7639503,
 	"Longitude": -73.8326035
  },
@@ -86622,12 +86427,12 @@
 	"Job Number": "Q00596656-I1",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "5/27/2023",
+	"Permit Expiration Date": "8/1/2023",
 	"BIN": "4623962",
 	"Borough": "QUEENS",
 	"Community Board": "409",
 	"Address": "88-06 161 STREET",
-	"Count": 1,
+	"Count": 2,
 	"Latitude": 40.707859,
 	"Longitude": -73.8011475
  },
@@ -87724,19 +87529,6 @@
 	"Longitude": -73.7958603
  },
  {
-	"Job Number": "Q00614075-S2",
-	"Job Type": "New Building",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "4624330",
-	"Borough": "QUEENS",
-	"Community Board": "401",
-	"Address": "30-05 QUEENS BOULEVARD",
-	"Count": 1,
-	"Latitude": 40.7487183,
-	"Longitude": -73.9366226
- },
- {
 	"Job Number": "Q00614075-S3",
 	"Job Type": "New Building",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -88699,7 +88491,7 @@
 	"Longitude": -73.847908
  },
  {
-	"Job Number": "Q00509183-I1",
+	"Job Number": "Q00516082-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/22/2023",
@@ -88712,7 +88504,7 @@
 	"Longitude": 0.0
  },
  {
-	"Job Number": "Q00516082-I1",
+	"Job Number": "Q00509183-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "5/22/2023",
@@ -91767,19 +91559,6 @@
 	"Longitude": -74.2416534
  },
  {
-	"Job Number": "500871719",
-	"Job Type": "A2",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "9/4/2023",
-	"BIN": "5088090",
-	"Borough": "STATEN ISLAND",
-	"Community Board": "503",
-	"Address": "528 ACADEMY AVENUE",
-	"Count": 1,
-	"Latitude": 40.5077705,
-	"Longitude": -74.2436218
- },
- {
 	"Job Number": "500876741",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -91788,6 +91567,19 @@
 	"Borough": "STATEN ISLAND",
 	"Community Board": "503",
 	"Address": "528 ACADEMY AVE",
+	"Count": 1,
+	"Latitude": 40.5077705,
+	"Longitude": -74.2436218
+ },
+ {
+	"Job Number": "500871719",
+	"Job Type": "A2",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "9/4/2023",
+	"BIN": "5088090",
+	"Borough": "STATEN ISLAND",
+	"Community Board": "503",
+	"Address": "528 ACADEMY AVENUE",
 	"Count": 1,
 	"Latitude": 40.5077705,
 	"Longitude": -74.2436218
@@ -92261,19 +92053,6 @@
 	"Longitude": -74.1690369
  },
  {
-	"Job Number": "510114029",
-	"Job Type": "NB",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "1/26/2024",
-	"BIN": "5130986",
-	"Borough": "STATEN ISLAND",
-	"Community Board": "503",
-	"Address": "1000 WEST SERVICE ROAD",
-	"Count": 1,
-	"Latitude": 40.571331,
-	"Longitude": -74.197731
- },
- {
 	"Job Number": "510113315",
 	"Job Type": "NB",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -92283,6 +92062,19 @@
 	"Community Board": "503",
 	"Address": "1000 WEST SERVICE ROAD",
 	"Count": 3,
+	"Latitude": 40.571331,
+	"Longitude": -74.197731
+ },
+ {
+	"Job Number": "510114029",
+	"Job Type": "NB",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "1/26/2024",
+	"BIN": "5130986",
+	"Borough": "STATEN ISLAND",
+	"Community Board": "503",
+	"Address": "1000 WEST SERVICE ROAD",
+	"Count": 1,
 	"Latitude": 40.571331,
 	"Longitude": -74.197731
  },
@@ -93262,19 +93054,6 @@
 	"Longitude": -74.1059875
  },
  {
-	"Job Number": "520464658",
-	"Job Type": "DM",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "4/22/2023",
-	"BIN": "5171580",
-	"Borough": "STATEN ISLAND",
-	"Community Board": "502",
-	"Address": "135 FREEBORN STREET",
-	"Count": 1,
-	"Latitude": 40.5759315,
-	"Longitude": -74.091217
- },
- {
 	"Job Number": "520378582",
 	"Job Type": "NB",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -93418,7 +93197,7 @@
 	"Longitude": -74.2068787
  },
  {
-	"Job Number": "520300816",
+	"Job Number": "520332444",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/1/2023",
@@ -93431,7 +93210,7 @@
 	"Longitude": -74.124939
  },
  {
-	"Job Number": "520332444",
+	"Job Number": "520300816",
 	"Job Type": "A2",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
 	"Permit Expiration Date": "7/1/2023",
@@ -93626,19 +93405,6 @@
 	"Longitude": -74.1872864
  },
  {
-	"Job Number": "S00795459-I1",
-	"Job Type": "Alteration",
-	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
-	"Permit Expiration Date": "11/1/2023",
-	"BIN": "5175380",
-	"Borough": "STATEN ISLAND",
-	"Community Board": "503",
-	"Address": "348A DEISIUS STREET",
-	"Count": 1,
-	"Latitude": 40.5294113,
-	"Longitude": -74.1872864
- },
- {
 	"Job Number": "S00793894-I1",
 	"Job Type": "Alteration",
 	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
@@ -93648,6 +93414,19 @@
 	"Community Board": "503",
 	"Address": "348A DEISIUS STREET",
 	"Count": 2,
+	"Latitude": 40.5294113,
+	"Longitude": -74.1872864
+ },
+ {
+	"Job Number": "S00795459-I1",
+	"Job Type": "Alteration",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "11/1/2023",
+	"BIN": "5175380",
+	"Borough": "STATEN ISLAND",
+	"Community Board": "503",
+	"Address": "348A DEISIUS STREET",
+	"Count": 1,
 	"Latitude": 40.5294113,
 	"Longitude": -74.1872864
  },
@@ -94001,6 +93780,32 @@
 	"Count": 3,
 	"Latitude": 40.5383301,
 	"Longitude": -74.2012634
+ },
+ {
+	"Job Number": "S08043327-I1",
+	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/28/2023",
+	"BIN": "5175884",
+	"Borough": "STATEN ISLAND",
+	"Community Board": "502",
+	"Address": "191 TITUS AVENUE",
+	"Count": 1,
+	"Latitude": 40.5641518,
+	"Longitude": -74.1091614
+ },
+ {
+	"Job Number": "S08043266-I1",
+	"Job Type": "New Building",
+	"CS/SSC/SSM permit": "CS/SSC/SSM permit",
+	"Permit Expiration Date": "5/28/2023",
+	"BIN": "5175885",
+	"Borough": "STATEN ISLAND",
+	"Community Board": "503",
+	"Address": "193 TITUS AVENUE",
+	"Count": 1,
+	"Latitude": 40.5636597,
+	"Longitude": -74.1095886
  },
  {
 	"Job Number": "S08019312-I1",
