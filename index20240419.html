@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <title>Site Safety</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  <link rel="icon" type="image/png" href="https://github.com/NYCDOB/EssentialActiveConstruction/blob/gh-pages/images/logo.png">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.css">
-  <style>
+<title>Site Safety</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<link rel="icon" type="image/png" href="https://github.com/NYCDOB/EssentialActiveConstruction/blob/gh-pages/images/logo.png">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.css">
+<style>
 
 .filterTableButton {
 	margin-right:5px;
 }
+
 #riskTable_info{
 	font-weight:bolder !important;
 }
@@ -43,7 +44,6 @@ body {
 	margin-left: 10px;
 	padding-right: 10px;
 }
-
 #riskTable{
 	height: 100%;
 	font-size: 11px;
@@ -57,8 +57,6 @@ tr.shown td.details-control {
 	background: url('https://datatables.net/examples/resources/details_close.png') no-repeat center center;
 	cursor: pointer;
 }
-
-
 .logo{
 	background-image: url('https://nycdob.github.io/EssentialActiveConstruction/images/dob_logo_white.png');
 	background-repeat: no-repeat;
@@ -158,32 +156,15 @@ font-variation-settings:
 'opsz' 10;
 font-size: 12px;
 }
-
-
 @media( max-width:1200px){
 	.dobmain	{
 		padding-top:50px;
 	}
-	.ui{
-		visibility:hidden;
-	}
-
 }
 .navbar-nav>li>a:hover{
 	background-color:#cccccc;
 }
 
-
-.ui{
-	top: 10px;
-	left: 50px;
-	padding: 4px;
-	position: absolute;
-	background-color: #fff;
-	border: 2px solid #707070;
-	border-radius: 7px;
-	width: 300px;
-}
 .dataTables_filter input { width: 150px }
 </style>
 <body>
@@ -256,7 +237,7 @@ var width = $("#map").width(),
 	table_map = [],
 	filteredData,
 	latLngs = [];	
-    let _lObj={"Bin":"BIN","Address":"Address","Borough":"BOROUGH","Block":"BLOCK","Lot":"LOT","Community District":"CD",};
+    let _lObj={"BIN":"BIN","Address":"Address","Borough":"BOROUGH","Block":"BLOCK","Lot":"LOT","Community District":"CD",};
 	var pointsOverlay = L.d3SvgOverlay(function(sel,proj){
 	var pointsUpd = sel.selectAll('circle').data(points);	
 
@@ -269,17 +250,8 @@ var width = $("#map").width(),
 			return "point";
 		})
 		.on('click', function(d){		
-				tooltip.html(    dit( d["LAT"].concat(d["LONG"]),1)             );
-					tooltip.style("visibility", "visible");
-
-				// tooltip.style("visibility", "visible");
-				// tooltip.html(
-				// 	'BIN: ' + '<a href= "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=' + d.BIN + '&go4=+GO+&requestid=0" target="_blank">' + d.BIN + '</a>' + '</br>' +								
-				// 	'ADDRESS: '+ d.Address + ', ' + d.BOROUGH + '</br>' +
-				// 	'BOCK: ' + d.BLOCK + '</br>' +
-				// 	'LOT: ' + d.LOT + '</br>' +
-				// 	'COMMUNITY DISTRICT: ' + d.CD
-				
+				tooltip.html(dit(d["LAT"].concat(d["LONG"]),1));
+					tooltip.style("visibility", "visible");	
 			}
 		)
 		.on("mouseover", function(d, i){
@@ -338,37 +310,16 @@ var width = $("#map").width(),
 			return doString(_lObj,_dX,_l);
 		};
     }
-
-
-
-
-
-
-
-
 	d3.csv("https://raw.githubusercontent.com/NYCDOB/SiteSafety_V2/gh-pages/data/CSC_RouteList.csv",function(data){
 				points = data.map(function(d){
 				d.latLng = [+d.LAT,+d.LONG];
-				d.bin = d.BIN;				
-				//d.Address = [d.Address];
-				//d.CD = [d.CD];
-				//d.Borough = [d.BOROUGH];
-				//d.BLOCK = [d.BLOCK];
-				//d.LOT = [d.LOT];
-
-
-				// d.latLng = [+d.LAT,+d.LONG];
-				// d.bin = [d.BIN];				
-				// d.Address = [d.Address];
-				// d.CD = [d.CD];
-				// d.Borough = [d.BOROUGH];
-				// d.BLOCK = [d.BLOCK];
-				// d.LOT = [d.LOT];
+				d.bin = d.BIN;
 			return d;
 			});
 		pointsOverlay.addTo(map);
 	});
 	function highlightPoint(layerID){
+		document.querySelectorAll("circle[class*='zoom']").forEach(_z=>_z.classList.remove("zoomedPoint"));
 		let _z=document.querySelector("circle[bin='"+layerID+"']");
 		if (!!_z){
 			document.querySelectorAll("circle[cx='"+ _z.getAttribute('cx')+"'][cy='"+_z.getAttribute('cy')+"']").forEach(_p=>_p.classList.add('zoomedPoint'));
@@ -378,7 +329,6 @@ var width = $("#map").width(),
 		// map.panTo(new L.LatLng(lat,lon));
 		map.panTo(new L.LatLng(lat,lon));
 	}
-
 	function zoomToSelected(latlong){
 			map.setView(latlong,17);
 	}	
@@ -389,8 +339,6 @@ var width = $("#map").width(),
 	map.on('resize', function(){
 		map.invalidateSize();		
 	});
-	
-		
 	function format ( d ) {
 		return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
 			'<tr>'+
@@ -467,54 +415,10 @@ var width = $("#map").width(),
 				tr.removeClass('shown');
 			}
 			else {
-					row.child( format(row.data()) ).show();
+				row.child( format(row.data()) ).show();
 				tr.addClass('shown');
 			}
 		});	
-
-
-		// $('#riskTable tbody').on( 'click', 'tr', function () {
-		// 	if ( $(this).hasClass('selected') ) {
-		// 		$(this).removeClass('selected');			
-		// 	d3.selectAll('.point')
-		// 		.style("fill-opacity", function(d){
-		// 			return "0.7";
-		// 		});	
-		// 	zoomFullExtent();
-		// 	}
-		// 	else {
-		// 		table.$('tr.selected').removeClass('selected');
-		// 		$(this).addClass('selected');
-				
-		// 	for (var i=0; i < table.rows('.selected').data().length; i++){
-		// 		var selectedRecord = table.rows('.selected').data()[i].BIN;
-		// 		var LAT = table.rows('.selected').data()[i].LAT;
-		// 		var LONG = table.rows('.selected').data()[i].LONG;
-		// 		latlong = [LAT,LONG];
-		// 		// console.log(selectedRecord);
-		// 		// console.log(LAT);
-		// 		// console.log(LONG);
-		// 		// console.log(latlong);
-		// 		}
-		// 		highlightPoint(selectedRecord);	
-		// 		zoomToSelected(latlong);
-		// 	}
-		// });				
-		// Add event listener for opening and closing details
-		// $('#riskTable tbody').on('click', 'td.details-control', function () {
-		// 	var tr = $(this).closest('tr');
-		// 	var row = table.row( tr );
-		// 	if ( row.child.isShown() ) {
-		// 		// This row is already open - close it
-		// 		row.child.hide();
-		// 		tr.removeClass('shown');
-		// 	}
-		// 	else {
-		// 		// Open this row
-		// 		row.child( format(row.data()) ).show();
-		// 		tr.addClass('shown');
-		// 	}
-		// });
 	});		
 });	
 </script>
